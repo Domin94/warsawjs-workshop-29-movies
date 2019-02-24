@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  moviesURL: '/assets/movies.json'
+  moviesURL: '/assets/movies.json',
+  moviesTerminatorURL: '/assets/movies_terminator.json'
 };
 
 /*

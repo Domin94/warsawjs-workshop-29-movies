@@ -1,0 +1,20 @@
+[
+  {
+    "id": "terminator",
+    "title": "Terminator",
+    "description": "Elektroniczny morderca zostaje wysłany z przyszłości do roku 1984, by zabić matkę przyszłego lidera rewolucji. W ślad za nim rusza Kyle Reese, który ma chronić kobietę.    ",
+    "imageUrl": "https://picsum.photos/400/200?image=301"
+  },
+  {
+    "id": "terminator-2",
+    "title": "Terminator 2",
+    "description": "Elektroniczny morderca zostaje wysłany z przyszłości do roku 1984, by zabić matkę przyszłego lidera rewolucji. W ślad za nim rusza Kyle Reese, który ma chronić kobietę.    ",
+    "imageUrl": "https://picsum.photos/400/200?image=302"
+  },
+  {
+    "id": "terminator-3",
+    "title": "Terminator 3",
+    "description": "Elektroniczny morderca zostaje wysłany z przyszłości do roku 1984, by zabić matkę przyszłego lidera rewolucji. W ślad za nim rusza Kyle Reese, który ma chronić kobietę.    ",
+    "imageUrl": "https://picsum.photos/400/200?image=304"
+  }
+]

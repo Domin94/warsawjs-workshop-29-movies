@@ -8,14 +8,19 @@ import { MovieService } from './services/movie.service';
 import { HttpClientModule } from '@angular/common/http';
 import { VideoListComponent } from './components/video-list/video-list.component';
 import { VideoListItemComponent } from './components/video-list-item/video-list-item.component';
+import { PageVideoTerminatorListComponent } from './components/page-video-terminator-list/page-video-terminator-list.component';
+import { FilterPipe } from '../tools/filter.pipe';
+import { FormsModule } from '@angular/forms';
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
 
 @NgModule({
-  declarations: [PageVideoListComponent, PageVideoProfileComponent, VideoListComponent, VideoListItemComponent],
+  declarations: [PageVideoListComponent, PageVideoProfileComponent, VideoListComponent, VideoListItemComponent, PageVideoTerminatorListComponent, FilterPipe],
   imports: [
     CommonModule,
     LogicRoutingModule,
     RouterModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [
     MovieService

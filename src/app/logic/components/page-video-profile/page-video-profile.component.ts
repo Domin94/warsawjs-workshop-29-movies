@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { RouterModule, ActivatedRoute } from '@angular/router';
+import { MovieService } from '../../services/movie.service';
 
 @Component({
   selector: 'app-page-video-profile',
@@ -6,10 +8,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./page-video-profile.component.css']
 })
 export class PageVideoProfileComponent implements OnInit {
+  movie: Movie = null;
 
-  constructor() { }
+  constructor(private route: ActivatedRoute, private movieService: MovieService) { }
 
-  ngOnInit() {
+  async ngOnInit() {
+    const id = this.route.snapshot.params.id;
+    this.movie = await this.movieService.fetchMovieById(id);
   }
-
 }

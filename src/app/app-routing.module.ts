@@ -7,7 +7,7 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
 const routes: Routes = [
   {
     path: '',
-    component: PageHomeComponent
+    loadChildren: './logic/logic.module#LogicModule'
   },
   {
     path: 'contact',
