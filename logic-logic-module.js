@@ -2284,7 +2284,7 @@ var MovieService = /** @class */ (function () {
         return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function () {
             return tslib__WEBPACK_IMPORTED_MODULE_0__["__generator"](this, function (_a) {
                 switch (_a.label) {
-                    case 0: return [4 /*yield*/, this.httpClient.get(src_environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].baseURL + '/assets/data.json').toPromise()];
+                    case 0: return [4 /*yield*/, this.httpClient.get(src_environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].moviesURL).toPromise()];
                     case 1: return [2 /*return*/, _a.sent()];
                 }
             });
