@@ -5,14 +5,24 @@ import { PageVideoProfileComponent } from './components/page-video-profile/page-
 import { LogicRoutingModule } from './logic-routing.module';
 import { RouterModule } from '@angular/router';
 import { MovieService } from './services/movie.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [PageVideoListComponent, PageVideoProfileComponent],
   imports: [
     CommonModule,
     LogicRoutingModule,
-    RouterModule
+    RouterModule,
+    HttpClientModule
+  ],
+  providers: [
+    MovieService
   ]
   //exports: [PageHomeComponent, PageContactComponent]
 })
-export class LogicModule { }
+export class LogicModule { 
+
+  onInit(){
+  }
+
+}
