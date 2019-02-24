@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { AppRoutingModule } from '../app-routing.module';
 import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
@@ -7,7 +8,8 @@ import { MenuComponent } from './menu/menu.component';
     MenuComponent
   ],
   imports: [
-    CommonModule 
+    CommonModule,
+    AppRoutingModule
   ], 
   exports: [MenuComponent]
 })
