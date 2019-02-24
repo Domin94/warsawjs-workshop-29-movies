@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-video-list-item',
@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./video-list-item.component.css']
 })
 export class VideoListItemComponent implements OnInit {
+  @Input() movie: Movie;
 
   constructor() { }
 

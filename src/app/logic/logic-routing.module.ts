@@ -9,7 +9,7 @@ const routes: Routes = [
     component: PageVideoListComponent
   },
   {
-    path: 'video-profile',
+    path: 'video-list-item/:id',
     component: PageVideoProfileComponent
   }
 ];
