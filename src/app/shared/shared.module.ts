@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { AppRoutingModule } from '../app-routing.module';
 import { MenuComponent } from './components/menu/menu.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -9,7 +9,7 @@ import { MenuComponent } from './components/menu/menu.component';
   ],
   imports: [
     CommonModule,
-    AppRoutingModule
+    RouterModule
   ], 
   exports: [MenuComponent]
 })
