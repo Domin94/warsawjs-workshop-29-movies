@@ -10,6 +10,6 @@ export class MovieService {
   constructor(private httpClient: HttpClient) { }
 
   async fetchMovies() {
-    return await this.httpClient.get(environment.baseURL + '/assets/data.json').toPromise();
+    return await this.httpClient.get(environment.movieURL).toPromise();
   }
 }

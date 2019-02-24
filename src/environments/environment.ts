@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  baseURL: 'http://localhost:4200'
+  baseURL: 'https://domin94.github.io/warsawjs-workshop-29-movies/assets/data.json'
 };
 
 /*
