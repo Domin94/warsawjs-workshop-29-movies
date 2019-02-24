@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { PageHomeComponent } from './logic/components/page-home/page-home.component';
-import { PageContactComponent } from './logic/components/page-contact/page-contact.component';
+import { PageHomeComponent } from './components/page-home/page-home.component';
+import { PageContactComponent } from './components/page-contact/page-contact.component';
 
 const routes: Routes = [
   {
@@ -11,6 +11,10 @@ const routes: Routes = [
   {
     path: 'contact',
     component: PageContactComponent
+  },
+  {
+    path: 'movies',
+    loadChildren: './logic/logic.module#LogicModule'
   }
 ];
 
