@@ -6,9 +6,11 @@ import { LogicRoutingModule } from './logic-routing.module';
 import { RouterModule } from '@angular/router';
 import { MovieService } from './services/movie.service';
 import { HttpClientModule } from '@angular/common/http';
+import { VideoListComponent } from './components/video-list/video-list.component';
+import { VideoListItemComponent } from './components/video-list-item/video-list-item.component';
 
 @NgModule({
-  declarations: [PageVideoListComponent, PageVideoProfileComponent],
+  declarations: [PageVideoListComponent, PageVideoProfileComponent, VideoListComponent, VideoListItemComponent],
   imports: [
     CommonModule,
     LogicRoutingModule,
