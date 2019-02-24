@@ -513,7 +513,7 @@ __webpack_require__.r(__webpack_exports__);
 // The list of file replacements can be found in `angular.json`.
 var environment = {
     production: false,
-    baseURL: 'http://localhost'
+    baseURL: 'http://localhost:4200'
 };
 /*
  * For easier debugging in development mode, you can import the following file
