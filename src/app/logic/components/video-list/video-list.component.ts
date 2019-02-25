@@ -10,7 +10,7 @@ import { Movies } from '../page-video-list/page-video-list.component';
 
 export class VideoListComponent implements OnInit {
   @Input() movies: Movies = null;
-  
+  term: string = '';
   constructor() { }
 
   ngOnInit() {
